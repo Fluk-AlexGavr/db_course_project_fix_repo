@@ -1,0 +1,16 @@
+.mainGrid{
+    margin: 2%;
+}
+.pagename{
+    font-family:sans-serif;
+    font-size: 25px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.price{
+    margin-right: 20px;
+}
